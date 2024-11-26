@@ -29,6 +29,7 @@ body {
     overflow: hidden;
     cursor: pointer;
     white-space: nowrap;
+    margin-top: -26px;
 }
 
 .marquee:hover {
@@ -50,7 +51,7 @@ body {
     vertical-align: middle;
     margin-left: 10px;
     padding-inline: 1.5px;
-    padding-block: 1px;
+    padding-block: 0px;
     background-color: #ffffff;
     border-radius: 2px;
 }
@@ -70,7 +71,7 @@ body {
     padding: 20px;
     flex: 1;
     background: url('backgroundlogin.jpg') no-repeat center center/cover;
-    min-height: 80vh;
+    min-height: 70vh;
 }
 
 .buttonContainer {
